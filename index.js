@@ -97,7 +97,7 @@ app.get('/gpt/:text', async (req, res) => {
             model: MODEL_NAME,
             messages: messages,
             temperature: 0.7,
-            max_tokens: 256,
+            max_tokens: 108,
             top_p: 0.95,
             frequency_penalty: 0,
             presence_penalty: 0,
